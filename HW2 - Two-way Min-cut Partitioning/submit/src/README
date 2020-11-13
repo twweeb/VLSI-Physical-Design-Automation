@@ -1,0 +1,14 @@
+-- How to Compile
+   In this directory, enter the following command:
+   $ make compile
+   It will generate the executable file "hw2" in "HW2/bin/".
+
+-- How to Run
+   In this directory, enter the following command:
+   $ ../bin/hw2 -n ../testcases/p2-1.nets -c ../testcases/p2-1.cells -o ../output/p2-1.out -m
+   Usage:
+    ../bin/hw2 [-n nets_file] [-c cells_file] [-o result_destination]
+               [-h] to get help [-m] to show cut-change and time-info.
+
+   $ make testall
+   It will test all the sample testcases, p2-1 .. p2-5.

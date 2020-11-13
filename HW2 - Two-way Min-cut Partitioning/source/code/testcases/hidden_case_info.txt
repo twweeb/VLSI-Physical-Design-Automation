@@ -1,0 +1,4 @@
+[name] [#cells] [max cell size] [#nets] [max net degree]
+h2-1 108674 10 102563 20
+h2-2 143188 10 136721 20
+h2-3 186229 5 189571 20
