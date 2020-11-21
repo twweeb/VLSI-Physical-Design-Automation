@@ -1,0 +1,438 @@
+NumHardRectilinearBlocks : 100
+NumTerminals : 334
+
+sb0 hardrectilinear 4 (0, 0) (0, 33) (43, 33) (43, 0)
+sb1 hardrectilinear 4 (0, 0) (0, 37) (65, 37) (65, 0)
+sb2 hardrectilinear 4 (0, 0) (0, 34) (53, 34) (53, 0)
+sb3 hardrectilinear 4 (0, 0) (0, 67) (37, 67) (37, 0)
+sb4 hardrectilinear 4 (0, 0) (0, 19) (29, 19) (29, 0)
+sb5 hardrectilinear 4 (0, 0) (0, 49) (39, 49) (39, 0)
+sb6 hardrectilinear 4 (0, 0) (0, 18) (40, 18) (40, 0)
+sb7 hardrectilinear 4 (0, 0) (0, 40) (22, 40) (22, 0)
+sb8 hardrectilinear 4 (0, 0) (0, 62) (50, 62) (50, 0)
+sb9 hardrectilinear 4 (0, 0) (0, 41) (16, 41) (16, 0)
+sb10 hardrectilinear 4 (0, 0) (0, 52) (18, 52) (18, 0)
+sb11 hardrectilinear 4 (0, 0) (0, 59) (39, 59) (39, 0)
+sb12 hardrectilinear 4 (0, 0) (0, 28) (61, 28) (61, 0)
+sb13 hardrectilinear 4 (0, 0) (0, 57) (48, 57) (48, 0)
+sb14 hardrectilinear 4 (0, 0) (0, 43) (63, 43) (63, 0)
+sb15 hardrectilinear 4 (0, 0) (0, 52) (59, 52) (59, 0)
+sb16 hardrectilinear 4 (0, 0) (0, 57) (36, 57) (36, 0)
+sb17 hardrectilinear 4 (0, 0) (0, 66) (44, 66) (44, 0)
+sb18 hardrectilinear 4 (0, 0) (0, 51) (48, 51) (48, 0)
+sb19 hardrectilinear 4 (0, 0) (0, 50) (31, 50) (31, 0)
+sb20 hardrectilinear 4 (0, 0) (0, 19) (37, 19) (37, 0)
+sb21 hardrectilinear 4 (0, 0) (0, 50) (64, 50) (64, 0)
+sb22 hardrectilinear 4 (0, 0) (0, 34) (49, 34) (49, 0)
+sb23 hardrectilinear 4 (0, 0) (0, 49) (20, 49) (20, 0)
+sb24 hardrectilinear 4 (0, 0) (0, 28) (45, 28) (45, 0)
+sb25 hardrectilinear 4 (0, 0) (0, 39) (54, 39) (54, 0)
+sb26 hardrectilinear 4 (0, 0) (0, 40) (55, 40) (55, 0)
+sb27 hardrectilinear 4 (0, 0) (0, 65) (25, 65) (25, 0)
+sb28 hardrectilinear 4 (0, 0) (0, 46) (39, 46) (39, 0)
+sb29 hardrectilinear 4 (0, 0) (0, 62) (24, 62) (24, 0)
+sb30 hardrectilinear 4 (0, 0) (0, 26) (24, 26) (24, 0)
+sb31 hardrectilinear 4 (0, 0) (0, 34) (26, 34) (26, 0)
+sb32 hardrectilinear 4 (0, 0) (0, 53) (43, 53) (43, 0)
+sb33 hardrectilinear 4 (0, 0) (0, 35) (22, 35) (22, 0)
+sb34 hardrectilinear 4 (0, 0) (0, 54) (27, 54) (27, 0)
+sb35 hardrectilinear 4 (0, 0) (0, 38) (31, 38) (31, 0)
+sb36 hardrectilinear 4 (0, 0) (0, 67) (39, 67) (39, 0)
+sb37 hardrectilinear 4 (0, 0) (0, 60) (20, 60) (20, 0)
+sb38 hardrectilinear 4 (0, 0) (0, 57) (23, 57) (23, 0)
+sb39 hardrectilinear 4 (0, 0) (0, 55) (52, 55) (52, 0)
+sb40 hardrectilinear 4 (0, 0) (0, 29) (26, 29) (26, 0)
+sb41 hardrectilinear 4 (0, 0) (0, 55) (27, 55) (27, 0)
+sb42 hardrectilinear 4 (0, 0) (0, 53) (62, 53) (62, 0)
+sb43 hardrectilinear 4 (0, 0) (0, 46) (61, 46) (61, 0)
+sb44 hardrectilinear 4 (0, 0) (0, 47) (65, 47) (65, 0)
+sb45 hardrectilinear 4 (0, 0) (0, 44) (23, 44) (23, 0)
+sb46 hardrectilinear 4 (0, 0) (0, 22) (39, 22) (39, 0)
+sb47 hardrectilinear 4 (0, 0) (0, 33) (65, 33) (65, 0)
+sb48 hardrectilinear 4 (0, 0) (0, 27) (57, 27) (57, 0)
+sb49 hardrectilinear 4 (0, 0) (0, 65) (47, 65) (47, 0)
+sb50 hardrectilinear 4 (0, 0) (0, 32) (67, 32) (67, 0)
+sb51 hardrectilinear 4 (0, 0) (0, 57) (38, 57) (38, 0)
+sb52 hardrectilinear 4 (0, 0) (0, 45) (54, 45) (54, 0)
+sb53 hardrectilinear 4 (0, 0) (0, 21) (43, 21) (43, 0)
+sb54 hardrectilinear 4 (0, 0) (0, 61) (18, 61) (18, 0)
+sb55 hardrectilinear 4 (0, 0) (0, 56) (34, 56) (34, 0)
+sb56 hardrectilinear 4 (0, 0) (0, 63) (17, 63) (17, 0)
+sb57 hardrectilinear 4 (0, 0) (0, 47) (18, 47) (18, 0)
+sb58 hardrectilinear 4 (0, 0) (0, 34) (46, 34) (46, 0)
+sb59 hardrectilinear 4 (0, 0) (0, 37) (50, 37) (50, 0)
+sb60 hardrectilinear 4 (0, 0) (0, 23) (40, 23) (40, 0)
+sb61 hardrectilinear 4 (0, 0) (0, 23) (33, 23) (33, 0)
+sb62 hardrectilinear 4 (0, 0) (0, 19) (60, 19) (60, 0)
+sb63 hardrectilinear 4 (0, 0) (0, 45) (36, 45) (36, 0)
+sb64 hardrectilinear 4 (0, 0) (0, 47) (50, 47) (50, 0)
+sb65 hardrectilinear 4 (0, 0) (0, 56) (57, 56) (57, 0)
+sb66 hardrectilinear 4 (0, 0) (0, 61) (67, 61) (67, 0)
+sb67 hardrectilinear 4 (0, 0) (0, 40) (44, 40) (44, 0)
+sb68 hardrectilinear 4 (0, 0) (0, 63) (52, 63) (52, 0)
+sb69 hardrectilinear 4 (0, 0) (0, 27) (54, 27) (54, 0)
+sb70 hardrectilinear 4 (0, 0) (0, 42) (42, 42) (42, 0)
+sb71 hardrectilinear 4 (0, 0) (0, 22) (64, 22) (64, 0)
+sb72 hardrectilinear 4 (0, 0) (0, 61) (61, 61) (61, 0)
+sb73 hardrectilinear 4 (0, 0) (0, 67) (61, 67) (61, 0)
+sb74 hardrectilinear 4 (0, 0) (0, 42) (38, 42) (38, 0)
+sb75 hardrectilinear 4 (0, 0) (0, 28) (19, 28) (19, 0)
+sb76 hardrectilinear 4 (0, 0) (0, 33) (22, 33) (22, 0)
+sb77 hardrectilinear 4 (0, 0) (0, 57) (66, 57) (66, 0)
+sb78 hardrectilinear 4 (0, 0) (0, 32) (36, 32) (36, 0)
+sb79 hardrectilinear 4 (0, 0) (0, 41) (60, 41) (60, 0)
+sb80 hardrectilinear 4 (0, 0) (0, 58) (16, 58) (16, 0)
+sb81 hardrectilinear 4 (0, 0) (0, 50) (40, 50) (40, 0)
+sb82 hardrectilinear 4 (0, 0) (0, 57) (47, 57) (47, 0)
+sb83 hardrectilinear 4 (0, 0) (0, 16) (22, 16) (22, 0)
+sb84 hardrectilinear 4 (0, 0) (0, 22) (67, 22) (67, 0)
+sb85 hardrectilinear 4 (0, 0) (0, 25) (20, 25) (20, 0)
+sb86 hardrectilinear 4 (0, 0) (0, 37) (56, 37) (56, 0)
+sb87 hardrectilinear 4 (0, 0) (0, 44) (39, 44) (39, 0)
+sb88 hardrectilinear 4 (0, 0) (0, 24) (37, 24) (37, 0)
+sb89 hardrectilinear 4 (0, 0) (0, 27) (38, 27) (38, 0)
+sb90 hardrectilinear 4 (0, 0) (0, 33) (39, 33) (39, 0)
+sb91 hardrectilinear 4 (0, 0) (0, 33) (56, 33) (56, 0)
+sb92 hardrectilinear 4 (0, 0) (0, 16) (26, 16) (26, 0)
+sb93 hardrectilinear 4 (0, 0) (0, 35) (65, 35) (65, 0)
+sb94 hardrectilinear 4 (0, 0) (0, 59) (41, 59) (41, 0)
+sb95 hardrectilinear 4 (0, 0) (0, 19) (51, 19) (51, 0)
+sb96 hardrectilinear 4 (0, 0) (0, 66) (40, 66) (40, 0)
+sb97 hardrectilinear 4 (0, 0) (0, 67) (17, 67) (17, 0)
+sb98 hardrectilinear 4 (0, 0) (0, 62) (22, 62) (22, 0)
+sb99 hardrectilinear 4 (0, 0) (0, 66) (49, 66) (49, 0)
+
+p1 terminal
+p2 terminal
+p3 terminal
+p4 terminal
+p5 terminal
+p6 terminal
+p7 terminal
+p8 terminal
+p9 terminal
+p10 terminal
+p11 terminal
+p12 terminal
+p13 terminal
+p14 terminal
+p15 terminal
+p16 terminal
+p17 terminal
+p18 terminal
+p19 terminal
+p20 terminal
+p21 terminal
+p22 terminal
+p23 terminal
+p24 terminal
+p25 terminal
+p26 terminal
+p27 terminal
+p28 terminal
+p29 terminal
+p30 terminal
+p31 terminal
+p32 terminal
+p33 terminal
+p34 terminal
+p35 terminal
+p36 terminal
+p37 terminal
+p38 terminal
+p39 terminal
+p40 terminal
+p41 terminal
+p42 terminal
+p43 terminal
+p44 terminal
+p45 terminal
+p46 terminal
+p47 terminal
+p48 terminal
+p49 terminal
+p50 terminal
+p51 terminal
+p52 terminal
+p53 terminal
+p54 terminal
+p55 terminal
+p56 terminal
+p57 terminal
+p58 terminal
+p59 terminal
+p60 terminal
+p61 terminal
+p62 terminal
+p63 terminal
+p64 terminal
+p65 terminal
+p66 terminal
+p67 terminal
+p68 terminal
+p69 terminal
+p70 terminal
+p71 terminal
+p72 terminal
+p73 terminal
+p74 terminal
+p75 terminal
+p76 terminal
+p77 terminal
+p78 terminal
+p79 terminal
+p80 terminal
+p81 terminal
+p82 terminal
+p83 terminal
+p84 terminal
+p85 terminal
+p86 terminal
+p87 terminal
+p88 terminal
+p89 terminal
+p90 terminal
+p91 terminal
+p92 terminal
+p93 terminal
+p94 terminal
+p95 terminal
+p96 terminal
+p97 terminal
+p98 terminal
+p99 terminal
+p100 terminal
+p101 terminal
+p102 terminal
+p103 terminal
+p104 terminal
+p105 terminal
+p106 terminal
+p107 terminal
+p108 terminal
+p109 terminal
+p110 terminal
+p111 terminal
+p112 terminal
+p113 terminal
+p114 terminal
+p115 terminal
+p116 terminal
+p117 terminal
+p118 terminal
+p119 terminal
+p120 terminal
+p121 terminal
+p122 terminal
+p123 terminal
+p124 terminal
+p125 terminal
+p126 terminal
+p127 terminal
+p128 terminal
+p129 terminal
+p130 terminal
+p131 terminal
+p132 terminal
+p133 terminal
+p134 terminal
+p135 terminal
+p136 terminal
+p137 terminal
+p138 terminal
+p139 terminal
+p140 terminal
+p141 terminal
+p142 terminal
+p143 terminal
+p144 terminal
+p145 terminal
+p146 terminal
+p147 terminal
+p148 terminal
+p149 terminal
+p150 terminal
+p151 terminal
+p152 terminal
+p153 terminal
+p154 terminal
+p155 terminal
+p156 terminal
+p157 terminal
+p158 terminal
+p159 terminal
+p160 terminal
+p161 terminal
+p162 terminal
+p163 terminal
+p164 terminal
+p165 terminal
+p166 terminal
+p167 terminal
+p168 terminal
+p169 terminal
+p170 terminal
+p171 terminal
+p172 terminal
+p173 terminal
+p174 terminal
+p175 terminal
+p176 terminal
+p177 terminal
+p178 terminal
+p179 terminal
+p180 terminal
+p181 terminal
+p182 terminal
+p183 terminal
+p184 terminal
+p185 terminal
+p186 terminal
+p187 terminal
+p188 terminal
+p189 terminal
+p190 terminal
+p191 terminal
+p192 terminal
+p193 terminal
+p194 terminal
+p195 terminal
+p196 terminal
+p197 terminal
+p198 terminal
+p199 terminal
+p200 terminal
+p201 terminal
+p202 terminal
+p203 terminal
+p204 terminal
+p205 terminal
+p206 terminal
+p207 terminal
+p208 terminal
+p209 terminal
+p210 terminal
+p211 terminal
+p212 terminal
+p213 terminal
+p214 terminal
+p215 terminal
+p216 terminal
+p217 terminal
+p218 terminal
+p219 terminal
+p220 terminal
+p221 terminal
+p222 terminal
+p223 terminal
+p224 terminal
+p225 terminal
+p226 terminal
+p227 terminal
+p228 terminal
+p229 terminal
+p230 terminal
+p231 terminal
+p232 terminal
+p233 terminal
+p234 terminal
+p235 terminal
+p236 terminal
+p237 terminal
+p238 terminal
+p239 terminal
+p240 terminal
+p241 terminal
+p242 terminal
+p243 terminal
+p244 terminal
+p245 terminal
+p246 terminal
+p247 terminal
+p248 terminal
+p249 terminal
+p250 terminal
+p251 terminal
+p252 terminal
+p253 terminal
+p254 terminal
+p255 terminal
+p256 terminal
+p257 terminal
+p258 terminal
+p259 terminal
+p260 terminal
+p261 terminal
+p262 terminal
+p263 terminal
+p264 terminal
+p265 terminal
+p266 terminal
+p267 terminal
+p268 terminal
+p269 terminal
+p270 terminal
+p271 terminal
+p272 terminal
+p273 terminal
+p274 terminal
+p275 terminal
+p276 terminal
+p277 terminal
+p278 terminal
+p279 terminal
+p280 terminal
+p281 terminal
+p282 terminal
+p283 terminal
+p284 terminal
+p285 terminal
+p286 terminal
+p287 terminal
+p288 terminal
+p289 terminal
+p290 terminal
+p291 terminal
+p292 terminal
+p293 terminal
+p294 terminal
+p295 terminal
+p296 terminal
+p297 terminal
+p298 terminal
+p299 terminal
+p300 terminal
+p301 terminal
+p302 terminal
+p303 terminal
+p304 terminal
+p305 terminal
+p306 terminal
+p307 terminal
+p308 terminal
+p309 terminal
+p310 terminal
+p311 terminal
+p312 terminal
+p313 terminal
+p314 terminal
+p315 terminal
+p316 terminal
+p317 terminal
+p318 terminal
+p319 terminal
+p320 terminal
+p321 terminal
+p322 terminal
+p323 terminal
+p324 terminal
+p325 terminal
+p326 terminal
+p327 terminal
+p328 terminal
+p329 terminal
+p330 terminal
+p331 terminal
+p332 terminal
+p333 terminal
+p334 terminal
