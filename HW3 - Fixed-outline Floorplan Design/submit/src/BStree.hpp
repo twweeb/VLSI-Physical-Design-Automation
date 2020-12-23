@@ -1,7 +1,10 @@
 #ifndef BSTREE_H
 #define BSTREE_H
+#define INF 1<<29
 
+#include <iostream>
 #include <vector>
+
 struct node
 {
     int id, width, height, area, x, y, parent, left, right;
@@ -12,7 +15,7 @@ class BStree
 {
     private:
         std::vector<node*> tree, local, best;
-        int blockNum, localCost, bestCost, root, localRoot, bestRoot;
+        int root, blockNum, localCost, bestCost, localRoot, bestRoot;
         bool curStatus, bestStatus;
 
     public:
@@ -40,24 +43,6 @@ class BStree
         void move (int a, int b);
         void swap (int a, int b);
         void perturb ();
-};
-
-class Contour
-{
-    private:
-        int *horizontal, *vertical;
-        int tryLength, outline;
-
-    public:
-        Contour (int outline);
-        ~Contour ();
-        int _getY (int x, int width, int height);
-        int _outline ();
-        bool _isLegal (int l);
-        int _H (int i);
-        void bStree_update (int cur, BStree &bStree, bool isRight);
-        void update (BStree &bStree);
-        void clearContour ();
 };
 
 #endif
