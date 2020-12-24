@@ -1,0 +1,12 @@
+Usage:
+    ./verify <.modified.txt file> <.result file>
+
+Output:
+    If you can't see "...# RESULT #..." on the screen, your result file has wrong format.
+    Otherwise, your result file satisfies our basic requirement.
+
+    Make sure your result can satisfy the following constraint:
+        1. # of unconnected net because of pin = 0
+        2. # of unconnected net because of wire = 0
+        3. # of net has duplicate wires = 0
+    If you can't meet above constraint, your program fails on this testcase.
