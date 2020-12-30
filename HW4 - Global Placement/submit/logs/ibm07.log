@@ -1,0 +1,559 @@
+Benchmark: ibm07-cu90
+HPWL: 24535295
+Memory usage: 34.0 MB
+Core region: (-58674,-58688)-(58740,58744)
+
+////// Global Placement ///////
+Objective = 3.9772e+09 ||grad|| = 1.06542
+Objective = 3.97408e+09 ||grad|| = 1.06256
+Objective = 3.97098e+09 ||grad|| = 1.05977
+Objective = 3.96788e+09 ||grad|| = 1.05705
+Objective = 3.96479e+09 ||grad|| = 1.05442
+Objective = 3.9617e+09 ||grad|| = 1.05186
+Objective = 3.95863e+09 ||grad|| = 1.04939
+Objective = 3.95556e+09 ||grad|| = 1.04699
+Objective = 3.95249e+09 ||grad|| = 1.04468
+Objective = 3.94944e+09 ||grad|| = 1.04244
+Objective = 3.94639e+09 ||grad|| = 1.04029
+Objective = 3.94334e+09 ||grad|| = 1.03821
+Objective = 3.9403e+09 ||grad|| = 1.03621
+Objective = 3.93727e+09 ||grad|| = 1.03429
+Objective = 3.93424e+09 ||grad|| = 1.03244
+Objective = 3.93122e+09 ||grad|| = 1.03066
+Objective = 3.9282e+09 ||grad|| = 1.02895
+Objective = 3.92519e+09 ||grad|| = 1.02731
+Objective = 3.92218e+09 ||grad|| = 1.02573
+Objective = 3.91917e+09 ||grad|| = 1.02422
+Objective = 3.91617e+09 ||grad|| = 1.02276
+Objective = 3.91318e+09 ||grad|| = 1.02136
+Objective = 3.91019e+09 ||grad|| = 1.02002
+Objective = 3.9072e+09 ||grad|| = 1.01874
+Objective = 3.90421e+09 ||grad|| = 1.0175
+Objective = 3.90123e+09 ||grad|| = 1.01632
+Objective = 3.89825e+09 ||grad|| = 1.01518
+Objective = 3.89528e+09 ||grad|| = 1.01408
+Objective = 3.8923e+09 ||grad|| = 1.01303
+Objective = 3.88934e+09 ||grad|| = 1.01202
+Objective = 3.88637e+09 ||grad|| = 1.01105
+Objective = 3.88341e+09 ||grad|| = 1.01012
+Objective = 3.88044e+09 ||grad|| = 1.00922
+Objective = 3.87749e+09 ||grad|| = 1.00836
+Objective = 3.87453e+09 ||grad|| = 1.00753
+Objective = 3.87158e+09 ||grad|| = 1.00673
+Objective = 3.86862e+09 ||grad|| = 1.00597
+Objective = 3.86567e+09 ||grad|| = 1.00523
+Objective = 3.86273e+09 ||grad|| = 1.00451
+Objective = 3.85978e+09 ||grad|| = 1.00383
+Objective = 3.85684e+09 ||grad|| = 1.00316
+Objective = 3.8539e+09 ||grad|| = 1.00252
+Objective = 3.85096e+09 ||grad|| = 1.00191
+Objective = 3.84802e+09 ||grad|| = 1.00131
+Objective = 3.84508e+09 ||grad|| = 1.00073
+Objective = 3.84215e+09 ||grad|| = 1.00018
+Objective = 3.83921e+09 ||grad|| = 0.999636
+Objective = 3.83628e+09 ||grad|| = 0.999113
+Objective = 3.83335e+09 ||grad|| = 0.998606
+Objective = 3.83042e+09 ||grad|| = 0.998114
+Objective = 3.82749e+09 ||grad|| = 0.997637
+Objective = 3.82457e+09 ||grad|| = 0.997173
+Objective = 3.82164e+09 ||grad|| = 0.996722
+Objective = 3.81872e+09 ||grad|| = 0.996282
+Objective = 3.81579e+09 ||grad|| = 0.995854
+Objective = 3.81287e+09 ||grad|| = 0.995436
+Objective = 3.80995e+09 ||grad|| = 0.995027
+Objective = 3.80703e+09 ||grad|| = 0.994628
+Objective = 3.80412e+09 ||grad|| = 0.994237
+Objective = 3.8012e+09 ||grad|| = 0.993854
+Objective = 3.79828e+09 ||grad|| = 0.993477
+Objective = 3.79537e+09 ||grad|| = 0.993107
+Objective = 3.79246e+09 ||grad|| = 0.992743
+Objective = 3.78954e+09 ||grad|| = 0.992384
+Objective = 3.78663e+09 ||grad|| = 0.99203
+Objective = 3.78372e+09 ||grad|| = 0.99168
+Objective = 3.78081e+09 ||grad|| = 0.991333
+Objective = 3.7779e+09 ||grad|| = 0.99099
+Objective = 3.775e+09 ||grad|| = 0.990649
+Objective = 3.77209e+09 ||grad|| = 0.990311
+Objective = 3.76918e+09 ||grad|| = 0.989974
+Objective = 3.76628e+09 ||grad|| = 0.989639
+Objective = 3.76338e+09 ||grad|| = 0.989305
+Objective = 3.76047e+09 ||grad|| = 0.988972
+Objective = 3.75757e+09 ||grad|| = 0.988639
+Objective = 3.75467e+09 ||grad|| = 0.988307
+Objective = 3.75177e+09 ||grad|| = 0.987975
+Objective = 3.74887e+09 ||grad|| = 0.987642
+Objective = 3.74598e+09 ||grad|| = 0.987309
+Objective = 3.74308e+09 ||grad|| = 0.986975
+Objective = 3.74018e+09 ||grad|| = 0.98664
+Objective = 3.73729e+09 ||grad|| = 0.986304
+Objective = 3.7344e+09 ||grad|| = 0.985967
+Objective = 3.7315e+09 ||grad|| = 0.985628
+Objective = 3.72861e+09 ||grad|| = 0.985288
+Objective = 3.72572e+09 ||grad|| = 0.984946
+Objective = 3.72283e+09 ||grad|| = 0.984603
+Objective = 3.71994e+09 ||grad|| = 0.984257
+Objective = 3.71705e+09 ||grad|| = 0.983909
+Objective = 3.71417e+09 ||grad|| = 0.983559
+Objective = 3.71128e+09 ||grad|| = 0.983207
+Objective = 3.7084e+09 ||grad|| = 0.982853
+Objective = 3.70551e+09 ||grad|| = 0.982496
+Objective = 3.70263e+09 ||grad|| = 0.982137
+Objective = 3.69975e+09 ||grad|| = 0.981776
+Objective = 3.69687e+09 ||grad|| = 0.981412
+Objective = 3.69399e+09 ||grad|| = 0.981046
+Objective = 3.69111e+09 ||grad|| = 0.980677
+Objective = 3.68824e+09 ||grad|| = 0.980306
+Objective = 3.68536e+09 ||grad|| = 0.979933
+Objective = 3.68249e+09 ||grad|| = 0.979557
+Objective = 3.67961e+09 ||grad|| = 0.979179
+Objective = 3.67674e+09 ||grad|| = 0.978798
+Objective = 3.67387e+09 ||grad|| = 0.978416
+Objective = 3.671e+09 ||grad|| = 0.978031
+Objective = 3.66813e+09 ||grad|| = 0.977644
+Objective = 3.66526e+09 ||grad|| = 0.977254
+Objective = 3.66239e+09 ||grad|| = 0.976863
+Objective = 3.65953e+09 ||grad|| = 0.97647
+Objective = 3.65666e+09 ||grad|| = 0.976075
+Objective = 3.6538e+09 ||grad|| = 0.975678
+Objective = 3.65094e+09 ||grad|| = 0.97528
+Objective = 3.64808e+09 ||grad|| = 0.974879
+Objective = 3.64522e+09 ||grad|| = 0.974478
+Objective = 3.64236e+09 ||grad|| = 0.974074
+Objective = 3.6395e+09 ||grad|| = 0.973669
+Objective = 3.63664e+09 ||grad|| = 0.973263
+Objective = 3.63379e+09 ||grad|| = 0.972856
+Objective = 3.63094e+09 ||grad|| = 0.972447
+Objective = 3.62808e+09 ||grad|| = 0.972037
+Objective = 3.62523e+09 ||grad|| = 0.971625
+Objective = 3.62238e+09 ||grad|| = 0.971213
+Objective = 3.61953e+09 ||grad|| = 0.970799
+Objective = 3.61668e+09 ||grad|| = 0.970385
+Objective = 3.61384e+09 ||grad|| = 0.969969
+Objective = 3.61099e+09 ||grad|| = 0.969552
+Objective = 3.60815e+09 ||grad|| = 0.969135
+Objective = 3.60531e+09 ||grad|| = 0.968716
+Objective = 3.60246e+09 ||grad|| = 0.968297
+Objective = 3.59962e+09 ||grad|| = 0.967877
+Objective = 3.59678e+09 ||grad|| = 0.967457
+Objective = 3.59395e+09 ||grad|| = 0.967036
+Objective = 3.59111e+09 ||grad|| = 0.966615
+Objective = 3.58827e+09 ||grad|| = 0.966193
+Objective = 3.58544e+09 ||grad|| = 0.965772
+Objective = 3.58261e+09 ||grad|| = 0.965351
+Objective = 3.57977e+09 ||grad|| = 0.964929
+Objective = 3.57694e+09 ||grad|| = 0.964508
+Objective = 3.57411e+09 ||grad|| = 0.964088
+Objective = 3.57129e+09 ||grad|| = 0.963668
+Objective = 3.56846e+09 ||grad|| = 0.963248
+Objective = 3.56563e+09 ||grad|| = 0.962829
+Objective = 3.56281e+09 ||grad|| = 0.96241
+Objective = 3.55999e+09 ||grad|| = 0.961993
+Objective = 3.55716e+09 ||grad|| = 0.961575
+Objective = 3.55434e+09 ||grad|| = 0.961159
+Objective = 3.55152e+09 ||grad|| = 0.960743
+Objective = 3.54871e+09 ||grad|| = 0.960328
+Objective = 3.54589e+09 ||grad|| = 0.959914
+Objective = 3.54307e+09 ||grad|| = 0.9595
+Objective = 3.54026e+09 ||grad|| = 0.959087
+Objective = 3.53745e+09 ||grad|| = 0.958674
+Objective = 3.53463e+09 ||grad|| = 0.958263
+Objective = 3.53182e+09 ||grad|| = 0.957851
+Objective = 3.52901e+09 ||grad|| = 0.957441
+Objective = 3.5262e+09 ||grad|| = 0.95703
+Objective = 3.5234e+09 ||grad|| = 0.956621
+Objective = 3.52059e+09 ||grad|| = 0.956212
+Objective = 3.51778e+09 ||grad|| = 0.955803
+Objective = 3.51498e+09 ||grad|| = 0.955395
+Objective = 3.51218e+09 ||grad|| = 0.954987
+Objective = 3.50938e+09 ||grad|| = 0.95458
+Objective = 3.50658e+09 ||grad|| = 0.954174
+Objective = 3.50378e+09 ||grad|| = 0.953769
+Objective = 3.50098e+09 ||grad|| = 0.953365
+Objective = 3.49818e+09 ||grad|| = 0.952961
+Objective = 3.49539e+09 ||grad|| = 0.952559
+Objective = 3.49259e+09 ||grad|| = 0.952158
+Objective = 3.4898e+09 ||grad|| = 0.951758
+Objective = 3.48701e+09 ||grad|| = 0.951359
+Objective = 3.48422e+09 ||grad|| = 0.950961
+Objective = 3.48143e+09 ||grad|| = 0.950565
+Objective = 3.47864e+09 ||grad|| = 0.950169
+Objective = 3.47585e+09 ||grad|| = 0.949775
+Objective = 3.47307e+09 ||grad|| = 0.949381
+Objective = 3.47028e+09 ||grad|| = 0.948988
+Objective = 3.4675e+09 ||grad|| = 0.948596
+Objective = 3.46471e+09 ||grad|| = 0.948205
+Objective = 3.46193e+09 ||grad|| = 0.947814
+Objective = 3.45915e+09 ||grad|| = 0.947424
+Objective = 3.45637e+09 ||grad|| = 0.947033
+Objective = 3.45359e+09 ||grad|| = 0.946643
+Objective = 3.45082e+09 ||grad|| = 0.946254
+Objective = 3.44804e+09 ||grad|| = 0.945864
+Objective = 3.44527e+09 ||grad|| = 0.945475
+Objective = 3.44249e+09 ||grad|| = 0.945086
+Objective = 3.43972e+09 ||grad|| = 0.944697
+Objective = 3.43695e+09 ||grad|| = 0.944308
+Objective = 3.43418e+09 ||grad|| = 0.943919
+Objective = 3.43141e+09 ||grad|| = 0.94353
+Objective = 3.42864e+09 ||grad|| = 0.943141
+Objective = 3.42588e+09 ||grad|| = 0.942753
+Objective = 3.42311e+09 ||grad|| = 0.942365
+Objective = 3.42035e+09 ||grad|| = 0.941977
+Objective = 3.41758e+09 ||grad|| = 0.941589
+Objective = 3.41482e+09 ||grad|| = 0.941202
+Objective = 3.41206e+09 ||grad|| = 0.940814
+Objective = 3.4093e+09 ||grad|| = 0.940427
+Objective = 3.40654e+09 ||grad|| = 0.940041
+Objective = 3.40378e+09 ||grad|| = 0.939654
+!
+Objective = 1.3738e+69 ||grad|| = 7.97029e+64
+!
+Objective = 1.3738e+69 ||grad|| = 9.49647e+64
+!
+Objective = 1.3738e+69 ||grad|| = 1.15699e+65
+!
+Objective = 1.3738e+69 ||grad|| = 1.39487e+65
+!
+Objective = 1.3738e+69 ||grad|| = 1.65012e+65
+!
+Objective = 1.3738e+69 ||grad|| = 1.91583e+65
+!
+Objective = 1.3738e+69 ||grad|| = 2.18817e+65
+!
+Objective = 1.3738e+69 ||grad|| = 2.46496e+65
+!
+Objective = 1.3738e+69 ||grad|| = 2.74485e+65
+!
+Objective = 1.3738e+69 ||grad|| = 3.02698e+65
+!
+Objective = 1.3738e+69 ||grad|| = 3.31077e+65
+!
+Objective = 1.3738e+69 ||grad|| = 3.59584e+65
+!
+Objective = 1.3738e+69 ||grad|| = 3.8819e+65
+!
+Objective = 1.3738e+69 ||grad|| = 4.16874e+65
+!
+Objective = 1.3738e+69 ||grad|| = 4.45622e+65
+!
+Objective = 1.3738e+69 ||grad|| = 4.74423e+65
+!
+Objective = 1.3738e+69 ||grad|| = 5.03266e+65
+!
+Objective = 1.3738e+69 ||grad|| = 5.32145e+65
+!
+Objective = 1.3738e+69 ||grad|| = 5.61055e+65
+!
+Objective = 1.3738e+69 ||grad|| = 5.89991e+65
+!
+Objective = 1.3738e+69 ||grad|| = 6.18949e+65
+!
+Objective = 1.3738e+69 ||grad|| = 6.47927e+65
+!
+Objective = 1.3738e+69 ||grad|| = 6.76922e+65
+!
+Objective = 1.3738e+69 ||grad|| = 7.05931e+65
+!
+Objective = 1.3738e+69 ||grad|| = 7.34953e+65
+!
+Objective = 1.3738e+69 ||grad|| = 7.63987e+65
+!
+Objective = 1.3738e+69 ||grad|| = 7.93032e+65
+!
+Objective = 1.3738e+69 ||grad|| = 8.22085e+65
+!
+Objective = 1.3738e+69 ||grad|| = 8.51147e+65
+!
+Objective = 1.3738e+69 ||grad|| = 8.80216e+65
+!
+Objective = 1.3738e+69 ||grad|| = 9.09292e+65
+!
+Objective = 1.3738e+69 ||grad|| = 9.38374e+65
+!
+Objective = 1.3738e+69 ||grad|| = 9.67461e+65
+!
+Objective = 1.3738e+69 ||grad|| = 9.96554e+65
+!
+Objective = 1.3738e+69 ||grad|| = 1.02565e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.05475e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.08386e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.11297e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.14208e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.1712e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.20031e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.22943e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.25856e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.28768e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.31681e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.34594e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.37507e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.40421e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.43334e+66
+!
+Objective = 1.3738e+69 ||grad|| = 1.46248e+66
+!
+Objective = 2.74761e+69 ||grad|| = 2.98323e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.04151e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.09979e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.15808e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.21636e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.27465e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.33294e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.39124e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.44953e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.50783e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.56613e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.62443e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.68273e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.74103e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.79933e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.85764e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.91595e+66
+!
+Objective = 2.74761e+69 ||grad|| = 3.97425e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.03256e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.09087e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.14919e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.2075e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.26581e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.32413e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.38244e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.44076e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.49907e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.55739e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.61571e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.67403e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.73235e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.79067e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.84899e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.90731e+66
+!
+Objective = 2.74761e+69 ||grad|| = 4.96564e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.02396e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.08228e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.14061e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.19893e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.25726e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.31558e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.37391e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.43224e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.49056e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.54889e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.60722e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.66555e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.72388e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.78221e+66
+!
+Objective = 2.74761e+69 ||grad|| = 5.84054e+66
+!
+Objective = 4.12141e+69 ||grad|| = 8.8483e+66
+!
+Objective = 4.12141e+69 ||grad|| = 8.9358e+66
+!
+Objective = 4.12141e+69 ||grad|| = 9.02329e+66
+!
+Objective = 4.12141e+69 ||grad|| = 9.11079e+66
+!
+Objective = 4.12141e+69 ||grad|| = 9.19829e+66
+!
+Objective = 4.12141e+69 ||grad|| = 9.28579e+66
+!
+Objective = 4.12141e+69 ||grad|| = 9.37328e+66
+!
+Objective = 4.12141e+69 ||grad|| = 9.46078e+66
+!
+Objective = 4.12141e+69 ||grad|| = 9.54828e+66
+!
+Objective = 4.12141e+69 ||grad|| = 9.63578e+66
+!
+Objective = 4.12141e+69 ||grad|| = 9.72328e+66
+!
+Objective = 4.12141e+69 ||grad|| = 9.81078e+66
+!
+Objective = 4.12141e+69 ||grad|| = 9.89828e+66
+!
+Objective = 4.12141e+69 ||grad|| = 9.98578e+66
+!
+Objective = 4.12141e+69 ||grad|| = 1.00733e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.01608e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.02483e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.03358e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.04233e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.05108e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.05983e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.06858e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.07733e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.08608e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.09483e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.10358e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.11233e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.12108e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.12983e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.13858e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.14734e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.15609e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.16484e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.17359e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.18234e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.19109e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.19984e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.20859e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.21734e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.22609e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.23484e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.24359e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.25234e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.2611e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.26985e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.2786e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.28735e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.2961e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.30485e+67
+!
+Objective = 4.12141e+69 ||grad|| = 1.3136e+67
+
+HPWL: 3395395426
+
+////// Legalization ///////
+macro size: 0
+---legalization success!
+
+HPWL: 3560161822 (4.85%)
+
+////// Detail Placement ///////
+ run: 0 HPWL=3389708320 (-4.788%)(-4.788%)   time: 0 sec   all: 0 sec
+ run: 1 HPWL=3256406209 (-3.933%)(-8.532%)   time: 0 sec   all: 0 sec
+ run: 2 HPWL=3127820090 (-3.949%)(-12.144%)   time: 0 sec   all: 1 sec
+ run: 3 HPWL=3021843893 (-3.388%)(-15.121%)   time: 0 sec   all: 1 sec
+ run: 4 HPWL=2921781158 (-3.311%)(-17.931%)   time: 0 sec   all: 2 sec
+ run: 5 HPWL=2841614150 (-2.744%)(-20.183%)   time: 0 sec   all: 2 sec
+ run: 6 HPWL=2756712890 (-2.988%)(-22.568%)   time: 0 sec   all: 3 sec
+ run: 7 HPWL=2686346020 (-2.553%)(-24.544%)   time: 0 sec   all: 3 sec
+ run: 8 HPWL=2615523177 (-2.636%)(-26.534%)   time: 0 sec   all: 4 sec
+ run: 9 HPWL=2555139250 (-2.309%)(-28.230%)   time: 0 sec   all: 5 sec
+ run:10 HPWL=2508450395 (-1.827%)(-29.541%)   time: 0 sec   all: 6 sec
+ run:11 HPWL=2468984866 (-1.573%)(-30.650%)   time: 0 sec   all: 7 sec
+ run:12 HPWL=2432837820 (-1.464%)(-31.665%)   time: 1 sec   all: 8 sec
+ run:13 HPWL=2396951161 (-1.475%)(-32.673%)   time: 0 sec   all: 9 sec
+ run:14 HPWL=2365471691 (-1.313%)(-33.557%)   time: 0 sec   all: 10 sec
+ run:15 HPWL=2342057316 (-0.990%)(-34.215%)   time: 1 sec   all: 11 sec
+ run:16 HPWL=2323677813 (-0.785%)(-34.731%)   time: 1 sec   all: 12 sec
+ run:17 HPWL=2307645054 (-0.690%)(-35.181%)   time: 1 sec   all: 13 sec
+ run:18 HPWL=2291890354 (-0.683%)(-35.624%)   time: 0 sec   all: 14 sec
+ run:19 HPWL=2277215805 (-0.640%)(-36.036%)   time: 0 sec   all: 15 sec
+ run:20 HPWL=2267662846 (-0.420%)(-36.305%)   time: 1 sec   all: 16 sec
+ run:21 HPWL=2259291362 (-0.369%)(-36.540%)   time: 1 sec   all: 17 sec
+ run:22 HPWL=2251853695 (-0.329%)(-36.749%)   time: 1 sec   all: 18 sec
+ run:23 HPWL=2244853074 (-0.311%)(-36.945%)   time: 0 sec   all: 19 sec
+ run:24 HPWL=2237618274 (-0.322%)(-37.148%)   time: 0 sec   all: 20 sec
+ run:25 HPWL=2232551318 (-0.226%)(-37.291%)   time: 1 sec   all: 21 sec
+ run:26 HPWL=2227850557 (-0.211%)(-37.423%)   time: 1 sec   all: 22 sec
+ run:27 HPWL=2223407492 (-0.199%)(-37.548%)   time: 1 sec   all: 23 sec
+ run:28 HPWL=2199583124 (-1.072%)(-38.217%)   time: 1 sec   all: 25 sec
+ run:29 HPWL=2186342215 (-0.602%)(-38.589%)   time: 1 sec   all: 27 sec
+ run:30 HPWL=2173906812 (-0.569%)(-38.938%)   time: 2 sec   all: 29 sec
+
+HPWL: 2173906812 (-38.94%)
+
+
+////////////////////
+Benchmark: ibm07-cu90
+
+Global HPWL: 3395395426   Time:   90.0 sec (1.5 min)
+ Legal HPWL: 3560161822   Time:    5.0 sec (0.1 min)
+Detail HPWL: 2173906812   Time:   30.0 sec (0.5 min)
+ ===================================================================
+       HPWL: 2173906812   Time:  125.0 sec (2.1 min)

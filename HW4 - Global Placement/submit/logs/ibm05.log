@@ -1,0 +1,31 @@
+Benchmark: ibm05
+HPWL: 10728134
+Memory usage: 27.7 MB
+Core region: (0,0)-(2360,2368)
+
+////// Global Placement ///////
+
+HPWL: 10728134
+
+////// Legalization ///////
+macro size: 0
+legalization success!
+
+HPWL: 10043671 (-6.38%)
+
+////// Detail Placement ///////
+ run: 0 HPWL=9983143 (-0.603%)(-0.603%)   time: 0 sec   all: 0 sec
+ run: 1 HPWL=9969012 (-0.142%)(-0.743%)   time: 0 sec   all: 0 sec
+ run: 2 HPWL=9962963 (-0.061%)(-0.804%)   time: 0 sec   all: 1 sec
+
+HPWL: 9962963 (-0.80%)
+
+
+////////////////////
+Benchmark: ibm05
+
+Global HPWL: 10728134   Time:    0.0 sec (0.0 min)
+ Legal HPWL: 10043671   Time:    3.0 sec (0.1 min)
+Detail HPWL: 9962963   Time:    1.0 sec (0.0 min)
+ ===================================================================
+       HPWL: 9962963   Time:    4.0 sec (0.1 min)
