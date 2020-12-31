@@ -1,0 +1,5 @@
+Visualize the Global Placement
+
+Usage:
+
+python draw.py <xxx.node> <xxx.gp.pl> <fig.png>
