@@ -1,0 +1,14 @@
+grid 3 3
+vertical capacity 2
+horizontal capacity 2
+num net 3
+net0 0 2
+  0 1
+  1 1
+net1 1 2
+  0 2
+  1 1
+net2 2 2
+  2 2
+  1 0
+  
