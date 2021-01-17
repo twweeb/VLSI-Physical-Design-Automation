@@ -16,8 +16,8 @@ void Router::readInput(const std::string& testcase)
 
     seed_ = (seed_map.find(num_nets_) != seed_map.end()) ? seed_map[num_nets_] : time(NULL);
     seed_feasible_ = (seed_map.find(num_nets_) != seed_map.end()) ? true : false;
-    init_overflow_ = (init_overflow_map.find(num_nets_) != init_overflow_map.end()) ? init_overflow_map[num_nets_] : INF;
-    init_wirelength_ = (init_wirelength_map.find(num_nets_) != init_wirelength_map.end()) ? init_wirelength_map[num_nets_] : INF;
+    init_overflow_ = (seed_feasible_) ? init_overflow_map[num_nets_] : INF;
+    init_wirelength_ = (seed_feasible_) ? init_wirelength_map[num_nets_] : INF;
     for (int i = 0; i < num_nets_; ++i)
     {
         std::string net_name;
@@ -67,15 +67,14 @@ bool Router::is_legal_coord (std::pair<int, int>& coord)
 
 double Router::get_edge_cost (int edgeID)
 {
-    double base{1.0};
     if (edgeID < num_hor_edges_)
     {
-        if (demand[edgeID] < capacity_Hor_) return base + 1.0*(demand[edgeID]+1)/capacity_Hor_;
+        if (demand[edgeID] < capacity_Hor_) return 1.0 + 1.0*(demand[edgeID]+1)/capacity_Hor_;
         else return 1e4;
     }
     else
     {
-        if (demand[edgeID] < capacity_Ver_) return base + 1.0*(demand[edgeID]+1)/capacity_Ver_;
+        if (demand[edgeID] < capacity_Ver_) return 1.0 + 1.0*(demand[edgeID]+1)/capacity_Ver_;
         else return 1e4;
     }
 }
@@ -230,8 +229,8 @@ void Router::rip_reroute ()
         if (is_overflow(path)) overflow_nets.push_back({net.HPWL(),net.id()});
     }
     
-    std::random_shuffle(overflow_nets.begin(), overflow_nets.end());
-    std::sort(overflow_nets.begin(), overflow_nets.end()); //, [](auto& a, auto& b) {return a.second < b.second;}
+    //std::random_shuffle(overflow_nets.begin(), overflow_nets.end());
+    std::sort(overflow_nets.begin(), overflow_nets.end()); 
     for (auto& ovf_net: overflow_nets)  // re-route
     {
         updateDemand(Nets[ovf_net.second].path(), false);
@@ -259,6 +258,17 @@ void Router::dumpResult(const std::string& result)
         }
         fh << "!\n";
     }
+    fh.close();
+    return;
+}
+
+void Router::drawCongestionMap (const std::string& result)
+{
+    std::ofstream fh;
+    fh.open(result+".fig");
+    fh << grid_Hor_ << ' ' << grid_Ver_ << '\n';
+    for (int i = 0; i < num_edges_; ++i)
+        fh << 1.0*demand[i]/((i < num_hor_edges_) ? capacity_Hor_ : capacity_Ver_) << ' ';
     fh.close();
     return;
 }

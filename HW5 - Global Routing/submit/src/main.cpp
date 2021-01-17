@@ -51,6 +51,7 @@ int main (int argc, char *argv[])
     prog_end = clock();
     if (router[bestRouteIdx].show_log())
     {
+        router[bestRouteIdx].drawCongestionMap(argv[2]);
         std::cout << "Constructing Data Structure: " << ((double)(in_begin - prog_begin)/CLOCKS_PER_SEC) << " s\n"
                   << "I/O: " << ((double)(global_route_begin - in_begin + prog_end - out_begin)/CLOCKS_PER_SEC) << " s\n"
                   << "Initial Route: " << ((double)(rip_route_begin - global_route_begin)/CLOCKS_PER_SEC) << " s\n" 

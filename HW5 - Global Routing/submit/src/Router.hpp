@@ -37,25 +37,26 @@ public:
     Router() = default;
     ~Router() = default;
     void set_id (int id) {router_id_ = id;}
-    void readInput(const std::string&);
-    void routeTwoPinNet(Net&);
-    void updateOverflow();
-    void updateDemand(Path&, bool);
-    void globalRoute();
-    void rip_reroute();
+    void readInput (const std::string&);
+    void routeTwoPinNet (Net&);
+    void updateOverflow ();
+    void updateDemand (Path&, bool);
+    void globalRoute ();
+    void rip_reroute ();
     std::pair<int, int> get_next_coord (std::pair<int, int>&, int);
-    double get_edge_cost(int);
+    double get_edge_cost (int);
     bool is_legal_coord (std::pair<int, int>&);
     bool is_overflow (Path&);
-    void dumpResult(const std::string&);
-    bool show_log() {return show_log_;}
+    void dumpResult (const std::string&);
+    void drawCongestionMap (const std::string&);
+    bool show_log () {return show_log_;}
 
     int get_edge_id (std::pair<int, int>&, int);
     int get_node_id (std::pair<int, int>&);
-    int overflow() {return total_overflow_;}
-    int wirelength() {return wirelength_;}
-    int max_overflow() {return max_overflow_;}
-    unsigned seed() {return seed_;}
+    int overflow () {return total_overflow_;}
+    int wirelength () {return wirelength_;}
+    int max_overflow () {return max_overflow_;}
+    unsigned seed () {return seed_;}
 };
 
 #endif
