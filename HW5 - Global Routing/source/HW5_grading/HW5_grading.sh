@@ -1,7 +1,7 @@
 #!/bin/bash
 homeworkName=HW5
 binaryName=hw5
-testcasePool="ibm01 ibm04"
+testcasePool="ibm01 ibm02 ibm03 ibm04"
 timeLimit=600
 
 root=$( pwd )
