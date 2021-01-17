@@ -1,0 +1,37 @@
+
+------------ RunTest ------------
+testcase: 3
+Grid: 80 x 64
+Vertical_cap: 20
+Horizontal_cap: 30
+# of nets: 21609
+Max Overflow: 0, Total Overflow: 0, Wirelength: 142502, seed: 4093394120
+Constructing Data Structure: 0 s
+I/O: 0.1 s
+Initial Route: 5.2 s
+Rip and Route: 0 s
+
+------------ Verify -------------
+Begin to verify routing result.
+Parsing input file..
+	Test case:      ../testcase/ibm03.modified.txt
+	Result file:    ../output/ibm03.result
+[33mTotal nets to route=21609[m
+Verifing...
+Starting Dumping Congestion Map in Graphical File: ../testcase/ibm03.modified.txt.png
+Drawing Congestion Map in Graphical File: ../testcase/ibm03.modified.txt.png
+End Drawing: ../testcase/ibm03.modified.txt.png
+########################## RESULT #################################
+# of unconnected net because of pin: 0
+# of unconnected net because of wire: 0
+# of net has duplicate wires: 0
+# of overflow: 0
+max overflow: 0
+# of net without overflow: 21609 / 21609
+ Wire bend count: 0
+  XY  WireLength: 142502
+ Via  WireLength: 0
+Total WireLength: 142502
+Total    Cost:    142502
+
+-------------- End --------------

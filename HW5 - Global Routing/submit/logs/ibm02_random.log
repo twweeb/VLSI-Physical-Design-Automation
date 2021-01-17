@@ -1,0 +1,44 @@
+
+------------ RunTest ------------
+testcase: 2
+Grid: 80 x 64
+Vertical_cap: 22
+Horizontal_cap: 34
+# of nets: 22465
+seed 3657103016, overflow: 159, wirelength: 159850
+seed 3678577425, overflow: 97, wirelength: 161272
+seed 1953034797, overflow: 94, wirelength: 160196
+seed 120094615, overflow: 89, wirelength: 161492
+seed 765553707, overflow: 64, wirelength: 160938
+Max Overflow: 3, Total Overflow: 64, Wirelength: 160938, seed: 765553707
+Reroute 1, overflow: 1, wirelength: 162062
+Reroute 2, overflow: 0, wirelength: 162094
+Constructing Data Structure: 0 s
+I/O: 0.12 s
+Initial Route: 50.92 s
+Rip and Route: 0.28 s
+
+------------ Verify -------------
+Begin to verify routing result.
+Parsing input file..
+	Test case:      ../testcase/ibm02.modified.txt
+	Result file:    ../output/ibm02.result
+[33mTotal nets to route=22465[m
+Verifing...
+Starting Dumping Congestion Map in Graphical File: ../testcase/ibm02.modified.txt.png
+Drawing Congestion Map in Graphical File: ../testcase/ibm02.modified.txt.png
+End Drawing: ../testcase/ibm02.modified.txt.png
+########################## RESULT #################################
+# of unconnected net because of pin: 0
+# of unconnected net because of wire: 0
+# of net has duplicate wires: 0
+# of overflow: 0
+max overflow: 0
+# of net without overflow: 22465 / 22465
+ Wire bend count: 0
+  XY  WireLength: 162094
+ Via  WireLength: 0
+Total WireLength: 162094
+Total    Cost:    162094
+
+-------------- End --------------

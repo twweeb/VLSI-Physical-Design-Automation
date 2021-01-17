@@ -1,0 +1,60 @@
+
+------------ RunTest ------------
+testcase: 4
+Grid: 96 x 64
+Vertical_cap: 20
+Horizontal_cap: 23
+# of nets: 27781
+seed 1770102428, overflow: 821, wirelength: 163598
+seed 1741932431, overflow: 886, wirelength: 163626
+seed 339286194, overflow: 760, wirelength: 163384
+seed 477875778, overflow: 845, wirelength: 163730
+seed 3080031088, overflow: 726, wirelength: 162552
+seed 3560630445, overflow: 791, wirelength: 163410
+seed 2929360, overflow: 782, wirelength: 163474
+seed 1278918739, overflow: 684, wirelength: 163008
+seed 3051123373, overflow: 769, wirelength: 162428
+Max Overflow: 6, Total Overflow: 684, Wirelength: 163008, seed: 1278918739
+Reroute 1, overflow: 328, wirelength: 164478
+Reroute 2, overflow: 285, wirelength: 164608
+Reroute 3, overflow: 244, wirelength: 164404
+Reroute 4, overflow: 219, wirelength: 164182
+Reroute 5, overflow: 215, wirelength: 163972
+Reroute 6, overflow: 211, wirelength: 163988
+Reroute 7, overflow: 209, wirelength: 163970
+Reroute 8, overflow: 209, wirelength: 163896
+Reroute 9, overflow: 207, wirelength: 163910
+Reroute 10, overflow: 207, wirelength: 163874
+Reroute 11, overflow: 206, wirelength: 163862
+Reroute 12, overflow: 196, wirelength: 163930
+Reroute 13, overflow: 190, wirelength: 163872
+Reroute 14, overflow: 190, wirelength: 163790
+Constructing Data Structure: 0 s
+I/O: 0.13 s
+Initial Route: 56.82 s
+Rip and Route: 13.67 s
+
+------------ Verify -------------
+Begin to verify routing result.
+Parsing input file..
+	Test case:      ../testcase/ibm04.modified.txt
+	Result file:    ../output/ibm04.result
+[33mTotal nets to route=27781[m
+Verifing...
+Starting Dumping Congestion Map in Graphical File: ../testcase/ibm04.modified.txt.png
+Drawing Congestion Map in Graphical File: ../testcase/ibm04.modified.txt.png
+End Drawing: ../testcase/ibm04.modified.txt.png
+########################## RESULT #################################
+# of unconnected net because of pin: 0
+# of unconnected net because of wire: 0
+# of net has duplicate wires: 0
+# of overflow: 190
+max overflow: 7
+# of net without overflow: 26304 / 27781
+ Wire bend count: 0
+  XY  WireLength: 163790
+ Via  WireLength: 0
+Total WireLength: 163790
+Total    Cost:    163790
+
+-------------- End --------------

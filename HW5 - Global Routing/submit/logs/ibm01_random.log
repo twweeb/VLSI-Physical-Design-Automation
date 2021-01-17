@@ -1,0 +1,59 @@
+
+------------ RunTest ------------
+testcase: 1
+Grid: 64 x 64
+Vertical_cap: 12
+Horizontal_cap: 14
+# of nets: 13357
+seed 3198132098, overflow: 212, wirelength: 62331
+seed 3191805620, overflow: 261, wirelength: 63117
+seed 4199398405, overflow: 235, wirelength: 63165
+seed 1684514198, overflow: 170, wirelength: 62751
+seed 1937992758, overflow: 190, wirelength: 62511
+seed 2564199990, overflow: 162, wirelength: 62329
+seed 2927744286, overflow: 174, wirelength: 62155
+seed 3900259602, overflow: 162, wirelength: 62801
+Max Overflow: 3, Total Overflow: 162, Wirelength: 62329, seed: 2564199990
+Reroute 1, overflow: 10, wirelength: 64669
+Reroute 2, overflow: 8, wirelength: 64313
+Reroute 3, overflow: 5, wirelength: 64363
+Reroute 4, overflow: 4, wirelength: 64353
+Reroute 5, overflow: 3, wirelength: 64373
+Reroute 6, overflow: 2, wirelength: 64369
+Reroute 7, overflow: 2, wirelength: 64367
+Reroute 8, overflow: 2, wirelength: 64365
+Reroute 9, overflow: 2, wirelength: 64361
+Reroute 10, overflow: 2, wirelength: 64361
+Reroute 11, overflow: 2, wirelength: 64361
+Reroute 12, overflow: 2, wirelength: 64361
+Reroute 13, overflow: 2, wirelength: 64361
+Reroute 14, overflow: 2, wirelength: 64361
+Constructing Data Structure: 0 s
+I/O: 0.07 s
+Initial Route: 18.58 s
+Rip and Route: 0.65 s
+
+------------ Verify -------------
+Begin to verify routing result.
+Parsing input file..
+	Test case:      ../testcase/ibm01.modified.txt
+	Result file:    ../output/ibm01.result
+[33mTotal nets to route=13357[m
+Verifing...
+Starting Dumping Congestion Map in Graphical File: ../testcase/ibm01.modified.txt.png
+Drawing Congestion Map in Graphical File: ../testcase/ibm01.modified.txt.png
+End Drawing: ../testcase/ibm01.modified.txt.png
+########################## RESULT #################################
+# of unconnected net because of pin: 0
+# of unconnected net because of wire: 0
+# of net has duplicate wires: 0
+# of overflow: 2
+max overflow: 1
+# of net without overflow: 13329 / 13357
+ Wire bend count: 0
+  XY  WireLength: 64361
+ Via  WireLength: 0
+Total WireLength: 64361
+Total    Cost:    64361
+
+-------------- End --------------
