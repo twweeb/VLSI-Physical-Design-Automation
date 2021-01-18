@@ -98,5 +98,3 @@ def draw_congestion_map(congestion_file, figure):
 
 if __name__ == "__main__":
     draw_congestion_map(sys.argv[1],sys.argv[2])
-    #main()
-    #cProfile.run('main()') # if you want to do some profiling
