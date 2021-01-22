@@ -18,7 +18,7 @@ void Floorplan::open(int argc, char *argv[])
         seed = seedPool[idx];
     }
     
-    if (msg) std::cout << "I/O: " << std::chrono::duration_cast<std::chrono::microseconds> (std::chrono::steady_clock::now() - io_begin).count() <<  " us    ";
+    //if (msg) std::cout << "I/O: " << std::chrono::duration_cast<std::chrono::microseconds> (std::chrono::steady_clock::now() - io_begin).count() <<  " us    ";
 }
 
 int Floorplan::calWirelength () //HPWL
@@ -157,7 +157,7 @@ void Floorplan::initFloorplan ()
     }
     setinit(minCostWL, minCost);
     seed = minCostSeed;
-    if (msg) std::cout << "Init: " << std::chrono::duration_cast<std::chrono::microseconds> (std::chrono::steady_clock::now() - init_begin).count() <<  " us, ";
+    //if (msg) std::cout << "Init: " << std::chrono::duration_cast<std::chrono::microseconds> (std::chrono::steady_clock::now() - init_begin).count() <<  " us, ";
 }
 
 void Floorplan::SA ()
@@ -225,7 +225,7 @@ void Floorplan::SA ()
     curCost = cost(curWL);
 
     setfinal(curWL, curCost);
-    if (msg) std::cout << "SA: " << std::chrono::duration_cast<std::chrono::microseconds> (std::chrono::steady_clock::now() - sa_begin).count() <<  "\n\n";
+    //if (msg) std::cout << "SA: " << std::chrono::duration_cast<std::chrono::microseconds> (std::chrono::steady_clock::now() - sa_begin).count() <<  "\n\n";
 }
 
 void Floorplan::show_msg()

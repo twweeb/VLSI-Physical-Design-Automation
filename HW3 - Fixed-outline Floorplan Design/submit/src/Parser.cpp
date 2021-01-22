@@ -5,24 +5,13 @@ void Parser::readARG (int argc, char *argv[])
 {
     try
     {
-        for (int i = 6; i < argc; ++i)
-        {    
-            if (!strcmp(argv[i], "-h") || !strcmp(argv[i], "--help") )
-            {
-                std::cout << "Usage:\n"
-                          << "    ../bin/hw3 *.hardblocks *.nets *.pl *.floorplan dead_space_ratio\n"
-                          << "               [-h] to get help [-m] to show debug messages.\n\n";
-                exit(0);
-            }
-            else if(!strcmp(argv[i], "-m") || !strcmp(argv[i], "--msg")) msg = true;
-            else if(!strcmp(argv[i], "-d") || !strcmp(argv[i], "--draw")) drawfig.open(argv[++i]);
-            else if(!strcmp(argv[i], "-s") || !strcmp(argv[i], "--seed")) seed = true;
-        }
         hardblocks_data.open(argv[1]);
         nets_data.open(argv[2]);
         term_data.open(argv[3]);
         floorplan.open(argv[4]);
         DSR = std::stod(argv[5]);
+        drawfig.open(std::string(argv[4])+".fig");
+        
         if (!hardblocks_data.good() || !nets_data.good() || !term_data.good() || !floorplan.good()) throw 1;
     }
     catch (int e)

@@ -1,6 +1,7 @@
 #ifndef FLOORPLAN_H
 #define FLOORPLAN_H
 
+#include <omp.h>
 #include "BStree.hpp"
 #include "Parser.hpp"
 #include "Contour.hpp"
@@ -10,6 +11,7 @@
 #define saTRYLimit 1e9
 #define saTime 300
 #define PENALTY_LIMIT 1.732e5
+#define num_thread 8
 
 class Floorplan
 {

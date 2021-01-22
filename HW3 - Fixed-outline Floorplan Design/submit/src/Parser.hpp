@@ -26,7 +26,7 @@ struct terminal
 class Parser
 {
     private:
-        bool msg{false}, seed{true};
+        bool msg{true}, seed{true};
         std::ifstream hardblocks_data, nets_data, term_data;
         std::ofstream floorplan, drawfig;
         int blockNum{0}, termNum{0}, netNum{0}, blockArea{0}, outline{0};

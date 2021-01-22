@@ -7,9 +7,7 @@
 //  Copyright © 2020 Lei Hsiung. All rights reserved.
 //
 
-#include <omp.h>
 #include "Floorplan.hpp"
-#define num_thread 8
 
 using namespace std;
 
