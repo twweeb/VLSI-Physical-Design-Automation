@@ -32,55 +32,43 @@ int cellTotalSize = 0;
 bool isBalance (int size, bool init) { return (init) ? size < cellTotalSize*(0.5+RATIO/2) : abs(cellTotalSize - 2*size) < cellTotalSize * RATIO;}
 void parseArg(int argc, char *argv[], ifstream &in_cell, ifstream &in_net, ofstream &final_cut, bool &msg)
 {
-    for(int i = 1; i < argc; i++)
-    {    
-        if(!strcmp(argv[i], "-h") || !strcmp(argv[i], "--help") )
+    for(int i = 1; i < argc; ++i)
+    {
+        if(i == 1)
         {
-            cout << "Usage:\n";
-            cout << "    ../bin/hw2 [-n nets_file] [-c cells_file] [-o result_destination]\n";
-            cout << "               [-h] to get help [-m] to show cut-change and time-info.\n\n";
-            exit(0);
-        }
-        else if(!strcmp(argv[i], "-m") || !strcmp(argv[i], "--msg"))
-        {
-			msg = true;
-        }
-        else if(i == 1)
-        {
-			in_net.open(argv[i]);
+            in_net.open(argv[i]);
             if (!in_net.is_open())
             {
-			    cout << "Net file open error" << '\n';
+                cout << "Net file open error" << '\n';
                 exit(0);
             }
-			//else cout << argv[i] << " has been successfully read." << '\n';
+            //else cout << argv[i] << " has been successfully read." << '\n';
         }
         else if(i == 2)
         {
-			in_cell.open(argv[i]);
+            in_cell.open(argv[i]);
             if (!in_cell.is_open())
             {
-			    cout << "Cell file open error" << '\n';
-			    exit(0);
+                cout << "Cell file open error" << '\n';
+                exit(0);
             }
-			//else cout << argv[i] << " has been successfully read." << '\n';
+            //else cout << argv[i] << " has been successfully read." << '\n';
         }
         else if(i == 3)
         {
-			final_cut.open(argv[i]);
+            final_cut.open(argv[i]);
             if (!final_cut.is_open())
             {
-			    cout << "Does not specify or can not save the result." << '\n';
-			    exit(0);
+                cout << "Does not specify or can not save the result." << '\n';
+                exit(0);
             }
         }
-
         else if(i == argc-1) break;
-		else
-		{
-			cout << "Error" << '\n';
-			exit(0);
-		}
+        else
+        {
+            cout << "Error" << '\n';
+            exit(0);
+        }
     }
 }
 
@@ -538,9 +526,6 @@ int fm(vector<net*> &Nets, vector<cell*> &Cells, set<int> &A, set<int> &B,
 
 int main(int argc, char *argv[])
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL); cout.tie(NULL);
-
     t_begin = chrono::steady_clock::now();
     ifstream in_cell, in_net;
     ofstream final_cut;

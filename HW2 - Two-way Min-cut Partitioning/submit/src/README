@@ -5,7 +5,7 @@
 
 -- How to Run
    In this directory, enter the following command:
-   $ ../bin/hw2 -n ../testcases/p2-1.nets -c ../testcases/p2-1.cells -o ../output/p2-1.out -m
+   $ ../bin/hw2 ../testcases/p2-1.nets ../testcases/p2-1.cells ../output/p2-1.out
    Usage:
     ../bin/hw2 [-n nets_file] [-c cells_file] [-o result_destination]
                [-h] to get help [-m] to show cut-change and time-info.
